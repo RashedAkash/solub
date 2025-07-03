@@ -1,0 +1,40 @@
+@use '../../utils/' as *;
+.ak-hero{
+    &-area{
+        padding-top: 290px;
+        padding-bottom: 340px;
+    }
+    &-title{
+        font-size: 120px;
+        line-height: 1;
+        letter-spacing: -3.6px;
+        color: white;
+    }
+    &-sub-title{
+        font-size: 50px;
+        color: var( --tp-theme-color);
+        font-family: var(--tp-font-sub);
+    }
+    &-btn{
+        & a{
+           
+        }
+    }
+    &-img{
+        img{
+            
+        }
+    }
+    &-shape-1{
+       top: 33%;
+       left: 8%;
+    }
+    &-shape-2{
+       bottom: 20%;
+       left: 8%;
+    }
+    &-bottom-shape{
+        bottom: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,28 @@
+@use '../utils/' as *;
+@for $i from 1 through 20 {
+  .ml-#{$i} {
+    margin-left: $i * 5px;
+  }
+}
+@for $i from 1 through 20 {
+  .mr-#{$i} {
+    margin-right: $i * 5px;
+  }
+}
+@for $i from 1 through 20 {
+  .mt-#{$i} {
+    margin-top: $i * 5px;
+  }
+}
+@for $i from 1 through 20 {
+  .mb-#{$i} {
+    margin-bottom: $i * 5px;
+  }
+}
+
+//padding
+@for $i from 1 through 30 {
+  .pb-#{$i} {
+    padding-bottom: $i * 5px;
+  }
+}
