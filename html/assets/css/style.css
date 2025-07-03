@@ -810,7 +810,20 @@ img {
 
 .akservices {
   margin-top: -140px;
+  border-radius: 16px 16px 0px 0px;
+  padding: 50px 10px;
+  border-bottom: 4px solid #F55;
+  transition: all 0.3s;
 }
+.akservices:hover {
+  transform: translateY(-10px);
+}
+.akservices-content-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--tp-font-color);
+}
+
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 16px 30px;
@@ -824,6 +837,11 @@ img {
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
+}
+
+.text-btn {
+  font-size: 15px;
+  color: #56605D;
 }
 
 /*# sourceMappingURL=style.css.map */
