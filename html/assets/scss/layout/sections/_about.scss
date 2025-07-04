@@ -1,1 +1,49 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+.akabout {
+    &-rotate-title{
+        font-size: 130px;
+        color: #E0DEDA;
+        transform: rotate(90deg);
+        top: 115px;
+        right: -204px;
+    }
+  &-img {
+    & img {
+    }
+  }
+  &-number {
+    bottom: 88px;
+    right: -120px;
+    &-img {
+      & img {
+      }
+    }
+    &-content {
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: right;
+      transform: translateY(-50%);
+      margin-right: 65px;
+     margin-left: 50px;
+    
+      & h3 {
+        color: #f8f3e7;
+        font-size: 90px;
+        font-weight: 700;
+        margin: 0;
+      
+       
+        
+      }
+      & h6 {
+        color: #f8f3e7;       
+        font-size: 15px;   
+               
+        text-align: right;
+        letter-spacing: 0;
+         
+      }
+    }
+  }
+}
