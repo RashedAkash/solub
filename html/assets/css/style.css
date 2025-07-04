@@ -785,9 +785,20 @@ img {
   background-color: white;
 }
 
+.ak-subtitle {
+  color: #ff73ae;
+  font-family: var(--tp-font-sub);
+  font-size: 30px;
+}
+
+.ak-title {
+  font-size: 60px;
+  letter-spacing: -2.4px;
+}
+
 .akabout-rotate-title {
   font-size: 130px;
-  color: #E0DEDA;
+  color: #e0deda;
   transform: rotate(90deg);
   top: 115px;
   right: -204px;
@@ -816,6 +827,22 @@ img {
   font-size: 15px;
   text-align: right;
   letter-spacing: 0;
+}
+.akabout-info p {
+  font-size: 18px;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+.akabout-fact {
+  border-radius: 12px;
+  background: #fff;
+  padding: 17px 0 16px 17px;
+}
+.akabout-fact-content h4 {
+  margin: 0;
+}
+.akabout-fact-content p {
+  margin: 0;
 }
 
 .ak-hero-area {
@@ -859,7 +886,7 @@ img {
 }
 .ak-btn {
   background: var(--tp-theme-color);
-  padding: 16px 30px;
+  padding: 20px 37px;
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;

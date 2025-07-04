@@ -1,12 +1,12 @@
 @use "../../utils/" as *;
 .akabout {
-    &-rotate-title{
-        font-size: 130px;
-        color: #E0DEDA;
-        transform: rotate(90deg);
-        top: 115px;
-        right: -204px;
-    }
+  &-rotate-title {
+    font-size: 130px;
+    color: #e0deda;
+    transform: rotate(90deg);
+    top: 115px;
+    right: -204px;
+  }
   &-img {
     & img {
     }
@@ -25,24 +25,40 @@
       text-align: right;
       transform: translateY(-50%);
       margin-right: 65px;
-     margin-left: 50px;
-    
+      margin-left: 50px;
+
       & h3 {
         color: #f8f3e7;
         font-size: 90px;
         font-weight: 700;
         margin: 0;
-      
-       
-        
       }
       & h6 {
-        color: #f8f3e7;       
-        font-size: 15px;   
-               
+        color: #f8f3e7;
+        font-size: 15px;
+
         text-align: right;
         letter-spacing: 0;
-         
+      }
+    }
+  }
+  &-info {
+    & p {
+      font-size: 18px;
+      line-height: 30px; /* 166.667% */
+      letter-spacing: -0.36px;
+    }
+  }
+  &-fact {
+    border-radius: 12px;
+    background: #fff;
+    padding: 17px 0 16px 17px;
+    &-content {
+      & h4 {
+        margin: 0;
+      }
+      & p {
+        margin: 0;
       }
     }
   }
