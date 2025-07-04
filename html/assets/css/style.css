@@ -40,7 +40,8 @@
   --tp-primary-color: #073D30;
   --tp-secondary-color: #FE4E15;
   --tp-pink-color: #FF73AE;
-  --tp-font-color: #121018;
+  --tp-heading-color: #121018;
+  --tp-body-color: #5A5860;
 }
 
 :root {
@@ -811,19 +812,14 @@ img {
 .akservices {
   margin-top: -140px;
   border-radius: 16px 16px 0px 0px;
-  padding: 50px 10px;
-  border-bottom: 4px solid #F55;
+  padding: 50px 10px 37px;
+  border-bottom: 4px solid #f55;
   transition: all 0.3s;
 }
 .akservices:hover {
   transform: translateY(-10px);
+  box-shadow: 0px 4px 0px 0px #fff;
 }
-.akservices-content-title {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--tp-font-color);
-}
-
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 16px 30px;
