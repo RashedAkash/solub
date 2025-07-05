@@ -1,20 +1,29 @@
-@use '../utils/' as *;
-.ak-btn{
-    background: var(--tp-theme-color);
-   padding: 20px 37px;
-   border-radius: 12px;
-   color: var(--tp-font-color);
-   font-weight: 600;
-   &-white{
-background-color: white;
-padding: 16px 30px;
-   border-radius: 12px;
-   color: var(--tp-font-color);
-   font-weight: 600;
-   }
+@use "../utils/" as *;
+.ak-btn {
+  background: var(--tp-theme-color);
+  padding: 20px 37px;
+  border-radius: 12px;
+  color: var(--tp-font-color);
+  font-weight: 600;
+  &-white {
+    background-color: white;
+    padding: 16px 30px;
+    border-radius: 12px;
+    color: var(--tp-font-color);
+    font-weight: 600;
+  }
+  &-border {
+    border-radius: 12px;
+    border: 1px solid #073d30;
+    padding: 7px 27px;
+    color: #073d30;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+  }
 }
 
-.text-btn{
-   font-size: 15px;
-   color: #56605D;
+.text-btn {
+  font-size: 15px;
+  color: #56605d;
 }

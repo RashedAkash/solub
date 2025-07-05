@@ -909,6 +909,24 @@ img {
   transform: translateY(-10px);
   box-shadow: 0px 20px 60px 0px rgba(41, 28, 3, 0.1);
 }
+.akcauses-supporters span {
+  color: #85838b;
+  font-size: 14px;
+  line-height: 64px; /* 457.143% */
+  letter-spacing: -0.28px;
+}
+.akcauses-wrapper {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0px 36px 16px -24px rgba(18, 16, 24, 0.08);
+}
+.akcauses-wrapper-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 64px; /* 213.333% */
+  letter-spacing: -1.2px;
+}
+
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 20px 37px;
@@ -923,10 +941,19 @@ img {
   color: var(--tp-font-color);
   font-weight: 600;
 }
+.ak-btn-border {
+  border-radius: 12px;
+  border: 1px solid #073d30;
+  padding: 7px 27px;
+  color: #073d30;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
 
 .text-btn {
   font-size: 15px;
-  color: #56605D;
+  color: #56605d;
 }
 
 /*# sourceMappingURL=style.css.map */

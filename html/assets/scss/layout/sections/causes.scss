@@ -1,1 +1,30 @@
 @use "../../utils/" as *;
+.akcauses {
+  &-supporters {
+    & img {
+    }
+    & span {
+      color: #85838b;
+      font-size: 14px;
+      line-height: 64px; /* 457.143% */
+      letter-spacing: -0.28px;
+    }
+  }
+  &-wrapper {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0px 36px 16px -24px rgba(18, 16, 24, 0.08);
+    &-img {
+    }
+    &-content {
+      &-uppercontent {
+      }
+      & h3 {        
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 64px; /* 213.333% */
+        letter-spacing: -1.2px;
+      }
+    }
+  }
+}
