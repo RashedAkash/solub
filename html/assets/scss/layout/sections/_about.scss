@@ -52,7 +52,7 @@
   &-fact {
     border-radius: 12px;
     background: #fff;
-    padding: 17px 0 16px 17px;
+    padding: 17px 0 17px 10px;
     &-content {
       & h4 {
         margin: 0;
@@ -60,6 +60,10 @@
       & p {
         margin: 0;
       }
+    }
+    &-multihand{
+        top: -55px;
+        left: -40px;
     }
   }
 }

@@ -192,7 +192,7 @@ textarea {
   font-size: 15px;
   color: var(--tp-common-black);
   border: 0;
-  border-bottom: 1px solid #57595C;
+  border-bottom: 1px solid #57595c;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -203,7 +203,7 @@ input[type=number]::-webkit-input-placeholder,
 input[type=password]::-webkit-input-placeholder,
 input[type=url]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #57595C;
+  color: #57595c;
 }
 input[type=text]:-moz-placeholder,
 input[type=email]:-moz-placeholder,
@@ -212,7 +212,7 @@ input[type=number]:-moz-placeholder,
 input[type=password]:-moz-placeholder,
 input[type=url]:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #57595C;
+  color: #57595c;
 }
 input[type=text]::-moz-placeholder,
 input[type=email]::-moz-placeholder,
@@ -221,7 +221,7 @@ input[type=number]::-moz-placeholder,
 input[type=password]::-moz-placeholder,
 input[type=url]::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #57595C;
+  color: #57595c;
 }
 input[type=text]:-ms-input-placeholder,
 input[type=email]:-ms-input-placeholder,
@@ -230,7 +230,7 @@ input[type=number]:-ms-input-placeholder,
 input[type=password]:-ms-input-placeholder,
 input[type=url]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #57595C;
+  color: #57595c;
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -284,7 +284,17 @@ textarea {
 }
 
 .bg-gray {
-  background-color: #F2F0EC;
+  background-color: #f2f0ec;
+}
+
+.br-12 {
+  border-radius: 12px;
+}
+.br-16 {
+  border-radius: 16px;
+}
+.br-20 {
+  border-radius: 20px;
 }
 
 .ml-1 {
@@ -796,6 +806,17 @@ img {
   letter-spacing: -2.4px;
 }
 
+.akheader-menu ul li {
+  display: inline-block;
+}
+.akheader-area {
+  width: 1424px;
+}
+.akheader-transparent {
+  position: absolute;
+  top: 26px;
+  z-index: 11;
+}
 .akabout-rotate-title {
   font-size: 130px;
   color: #e0deda;
@@ -836,13 +857,17 @@ img {
 .akabout-fact {
   border-radius: 12px;
   background: #fff;
-  padding: 17px 0 16px 17px;
+  padding: 17px 0 17px 10px;
 }
 .akabout-fact-content h4 {
   margin: 0;
 }
 .akabout-fact-content p {
   margin: 0;
+}
+.akabout-fact-multihand {
+  top: -55px;
+  left: -40px;
 }
 
 .ak-hero-area {

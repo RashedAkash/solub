@@ -1,0 +1,26 @@
+@use '../../utils/' as *;
+.akheader {
+  &-menu{
+    & ul{
+      & li{
+        display: inline-block;
+        & a{
+
+        }
+      }
+    }
+  }
+  &-area{
+    width: 1424px;
+  }
+  &-transparent {
+    position: absolute;
+    top: 26px;
+    z-index: 11;
+  }
+  &-logo {
+    & img {
+    }
+  }
+ 
+}
