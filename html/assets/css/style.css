@@ -999,6 +999,19 @@ img {
 .akabout-fact-multihand {
   top: -55px;
   left: -40px;
+  mix-blend-mode: multiply;
+}
+.akabout-fact-multihand img {
+  width: 100%;
+}
+.akabout-wood {
+  top: -90px;
+  right: -120%;
+}
+.akabout-hand {
+  mix-blend-mode: exclusion;
+  left: -46%;
+  top: 25%;
 }
 
 .ak-hero-area {

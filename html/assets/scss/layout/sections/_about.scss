@@ -61,9 +61,22 @@
         margin: 0;
       }
     }
-    &-multihand{
-        top: -55px;
-        left: -40px;
+    &-multihand {
+      top: -55px;
+      left: -40px;
+      mix-blend-mode: multiply;
+      & img {
+        width: 100%;
+      }
     }
+  }
+  &-wood {
+    top: -90px;
+    right: -120%;
+  }
+  &-hand{
+    mix-blend-mode: exclusion;
+     left: -46%;
+    top: 25%;
   }
 }
