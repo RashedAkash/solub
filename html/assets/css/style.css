@@ -759,18 +759,22 @@ img {
 
 .z-index-1 {
   z-index: 1;
+  position: relative;
 }
 
 .z-index-2 {
   z-index: 2;
+  position: relative;
 }
 
 .z-index-3 {
   z-index: 3;
+  position: relative;
 }
 
 .z-index-11 {
   z-index: 11;
+  position: relative;
 }
 
 .overflow-y-visible {
@@ -804,6 +808,13 @@ img {
 .ak-title {
   font-size: 60px;
   letter-spacing: -2.4px;
+}
+
+.ak-pra-title {
+  color: #5a5860;
+  font-size: 18px;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
 }
 
 .akheader-menu ul li {
@@ -909,10 +920,29 @@ img {
   transform: translateY(-10px);
   box-shadow: 0px 20px 60px 0px rgba(41, 28, 3, 0.1);
 }
+.akcauses-care {
+  font-size: 280px;
+  font-weight: 600;
+  line-height: 64px; /* 22.857% */
+  letter-spacing: -11.2px;
+  background: linear-gradient(179deg, #E0DEDA 39.13%, #F2F0EC 104.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: -60px;
+  left: -10px;
+}
+.akcauses-content {
+  height: 100%;
+}
+.akcauses-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
 .akcauses-supporters span {
   color: #85838b;
   font-size: 14px;
-  line-height: 64px; /* 457.143% */
   letter-spacing: -0.28px;
 }
 .akcauses-wrapper {
@@ -920,11 +950,13 @@ img {
   background: #fff;
   box-shadow: 0px 36px 16px -24px rgba(18, 16, 24, 0.08);
 }
-.akcauses-wrapper-content h3 {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 64px; /* 213.333% */
-  letter-spacing: -1.2px;
+.progress,
+.progress-stacked {
+  --bs-progress-height: 8px;
+  --bs-progress-bg: rgba(18, 16, 24, 0.1);
+  --bs-progress-bar-color: #fff;
+  --bs-progress-bar-bg: #ffcf4e;
+  border-radius: 6px;
 }
 
 .ak-btn {
