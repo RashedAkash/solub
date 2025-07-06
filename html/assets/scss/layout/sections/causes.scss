@@ -66,6 +66,16 @@
     &-img {
     }
   }
+  &-goals{
+color: #56605D;
+font-size: 15px;
+
+  }
+  &-amount{
+color: var(--tp-heading-color);
+font-weight: 600;
+letter-spacing: -0.36px;
+  }
 }
 
 .progress,
@@ -75,4 +85,8 @@
   --bs-progress-bar-color: #fff;
   --bs-progress-bar-bg: #ffcf4e;
   border-radius: 6px;
+}
+
+.swiper.akcauses-slider.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+    margin-right: -610px;
 }

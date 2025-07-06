@@ -26,3 +26,8 @@
     padding-bottom: $i * 5px;
   }
 }
+@for $i from 1 through 30 {
+  .pt-#{$i} {
+    padding-top: $i * 5px;
+  }
+}
