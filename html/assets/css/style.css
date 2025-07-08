@@ -1132,6 +1132,53 @@ img {
   margin-right: -610px;
 }
 
+.akvolunteers-author img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(18, 16, 24, 0.2);
+}
+.akvolunteers-author1 {
+  bottom: 25px;
+  left: 343px;
+}
+.akvolunteers-author2 {
+  top: 25px;
+  right: 343px;
+}
+.akvolunteers-author3 {
+  top: 25px;
+  left: 343px;
+}
+.akvolunteers-author4 {
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.akvolunteers-author5 {
+  top: 50%;
+  left: 200px;
+}
+.akvolunteers-author6 {
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.akvolunteers-author7 {
+  bottom: 50%;
+  right: 20%;
+}
+.akvolunteers-author8 {
+  top: 10%;
+  right: 10%;
+}
+.akvolunteers-author9 {
+  bottom: 10%;
+  right: 10%;
+}
+
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 20px 37px;

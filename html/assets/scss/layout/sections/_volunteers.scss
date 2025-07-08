@@ -1,0 +1,55 @@
+@use "../../utils/" as *;
+.akvolunteers {
+  &-map {
+  }
+
+  &-author {
+    & img {
+      border-radius: 50%;
+      border: 2px solid #fff;
+      background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+      box-shadow: 0px 10px 30px 0px rgba(18, 16, 24, 0.2);
+    }
+  }
+  &-author1 {
+    bottom: 25px;
+    left: 343px;
+  }
+  &-author2 {
+    top: 25px;
+    right: 343px;
+  }
+  &-author3 {
+    top: 25px;
+    left: 343px;
+  }
+
+  &-author4 {
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  &-author5 {
+    top: 50%;
+    left: 200px;
+  }
+  &-author6 {
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  &-author7 {
+    bottom: 50%;
+    right: 20%;
+  }
+  &-author8 {
+    top: 10%;
+    right: 10%;
+  }
+  &-author9 {
+    bottom: 10%;
+    right: 10%;
+  }
+}
