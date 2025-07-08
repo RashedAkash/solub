@@ -1110,13 +1110,28 @@ img {
   box-shadow: 0px 36px 16px -24px rgba(18, 16, 24, 0.08);
 }
 .akcauses-goals {
-  color: #56605D;
+  color: #56605d;
   font-size: 15px;
 }
 .akcauses-amount {
   color: var(--tp-heading-color);
   font-weight: 600;
   letter-spacing: -0.36px;
+}
+.akcauses-support h4 {
+  color: #5a5860;
+  font-weight: 300;
+}
+.akcauses-support h4 span {
+  color: #121018;
+  font-weight: 600;
+  letter-spacing: -0.96px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 4%;
+  text-underline-offset: 25%;
+  text-underline-position: from-font;
 }
 
 .progress,
