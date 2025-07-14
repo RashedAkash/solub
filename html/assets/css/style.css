@@ -332,6 +332,19 @@
   background-color: #ffcf4e;
   height: 50px;
   border-radius: 12px;
+  color: var(--tp-heading-color);
+  font-weight: 500;
+}
+
+.akfact-pra {
+  color: #454449;
+}
+.akfact-title {
+  line-height: 1;
+  font-weight: 400;
+}
+.akfact-info {
+  border-left: 2px solid #FFCF4E;
 }
 
 .ak-btn {
@@ -1373,8 +1386,21 @@ img {
 .fns-16 {
   font-size: 16px;
 }
+.fns-18 {
+  font-size: 18px;
+}
 .fns-50 {
   font-size: 50px;
+}
+.fns-80 {
+  font-size: 80px;
+}
+
+.fnw-300 {
+  font-weight: 300;
+}
+.fnw-400 {
+  font-weight: 300;
 }
 
 .clgreen {
