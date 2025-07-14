@@ -1,0 +1,18 @@
+@use "../../utils/" as *;
+
+.aknav {
+  &-tabs {
+    border-radius: 12px;
+    border: 1px solid rgba(18, 16, 24, 0.1);
+  }
+
+  &-link {
+    padding: 10px 0;
+    width: 33.33%;
+    &.active {
+      background-color: #ffcf4e;
+      height: 50px;
+      border-radius: 12px;
+    }
+  }
+}

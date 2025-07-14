@@ -73,3 +73,22 @@ img {
     line-height: 28px; /* 155.556% */
     letter-spacing: -0.36px;
 }
+
+.fns{
+  &-16{
+    font-size: 16px;
+  }
+  &-50{
+    font-size: 50px;
+  }
+}
+
+.clgreen{
+  color: #073D30;
+}
+
+.br{
+  &-20{
+    border-radius: 20px;
+  }
+}

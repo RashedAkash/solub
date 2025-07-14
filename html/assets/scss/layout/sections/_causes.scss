@@ -81,7 +81,7 @@
 
       & span {
         color: #121018;
-       
+
         font-weight: 600;
 
         letter-spacing: -0.96px;
@@ -93,6 +93,19 @@
         text-underline-position: from-font;
       }
     }
+  }
+  &-prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid rgba(18, 16, 24, 0.1);
+  }
+  &-next {
+    margin-left: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid rgba(18, 16, 24, 0.1);
   }
 }
 
