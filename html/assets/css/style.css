@@ -347,6 +347,12 @@
   border-left: 2px solid #FFCF4E;
 }
 
+.akbrand-img {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 20px 37px;
@@ -1407,6 +1413,9 @@ img {
   color: #073D30;
 }
 
+.br-12 {
+  border-radius: 12px;
+}
 .br-20 {
   border-radius: 20px;
 }
