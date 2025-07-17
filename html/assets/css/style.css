@@ -1395,6 +1395,9 @@ img {
 .fns-18 {
   font-size: 18px;
 }
+.fns-34 {
+  font-size: 34px;
+}
 .fns-50 {
   font-size: 50px;
 }
@@ -1406,7 +1409,13 @@ img {
   font-weight: 300;
 }
 .fnw-400 {
-  font-weight: 300;
+  font-weight: 400;
+}
+.fnw-500 {
+  font-weight: 500;
+}
+.fnw-600 {
+  font-weight: 600;
 }
 
 .clgreen {
