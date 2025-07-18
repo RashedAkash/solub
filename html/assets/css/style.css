@@ -388,6 +388,53 @@
   right: 0;
 }
 
+.akevent-img {
+  bottom: 25px;
+  left: 0;
+  height: 340px;
+  width: 39%;
+}
+.akevent-img img {
+  border-radius: 0px 20px 20px 0px;
+}
+.akevent-wrapper {
+  border: 1px solid white;
+  margin-bottom: 12px;
+}
+.akevent-date {
+  border-right: 1px solid rgba(18, 16, 24, 0.1);
+}
+.akevent-day {
+  color: #121018;
+  font-family: var(--tp-heading-color);
+  font-size: 34px;
+  font-weight: 700;
+}
+.akevent-wrapper {
+  padding: 25px;
+}
+
+.aktextslider-area {
+  background: var(--tp-theme-color);
+  padding: 20px 0;
+}
+.aktextslider-content h3 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.ak-slide-transition {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.textslider .swiper-slide {
+  width: auto; /* ensures slides adjust naturally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ak-btn {
   background: var(--tp-theme-color);
   padding: 20px 37px;
@@ -1344,6 +1391,126 @@ textarea {
   padding-left: 150px;
 }
 
+.pr-1 {
+  padding-right: 5px;
+}
+
+.pr-2 {
+  padding-right: 10px;
+}
+
+.pr-3 {
+  padding-right: 15px;
+}
+
+.pr-4 {
+  padding-right: 20px;
+}
+
+.pr-5 {
+  padding-right: 25px;
+}
+
+.pr-6 {
+  padding-right: 30px;
+}
+
+.pr-7 {
+  padding-right: 35px;
+}
+
+.pr-8 {
+  padding-right: 40px;
+}
+
+.pr-9 {
+  padding-right: 45px;
+}
+
+.pr-10 {
+  padding-right: 50px;
+}
+
+.pr-11 {
+  padding-right: 55px;
+}
+
+.pr-12 {
+  padding-right: 60px;
+}
+
+.pr-13 {
+  padding-right: 65px;
+}
+
+.pr-14 {
+  padding-right: 70px;
+}
+
+.pr-15 {
+  padding-right: 75px;
+}
+
+.pr-16 {
+  padding-right: 80px;
+}
+
+.pr-17 {
+  padding-right: 85px;
+}
+
+.pr-18 {
+  padding-right: 90px;
+}
+
+.pr-19 {
+  padding-right: 95px;
+}
+
+.pr-20 {
+  padding-right: 100px;
+}
+
+.pr-21 {
+  padding-right: 105px;
+}
+
+.pr-22 {
+  padding-right: 110px;
+}
+
+.pr-23 {
+  padding-right: 115px;
+}
+
+.pr-24 {
+  padding-right: 120px;
+}
+
+.pr-25 {
+  padding-right: 125px;
+}
+
+.pr-26 {
+  padding-right: 130px;
+}
+
+.pr-27 {
+  padding-right: 135px;
+}
+
+.pr-28 {
+  padding-right: 140px;
+}
+
+.pr-29 {
+  padding-right: 145px;
+}
+
+.pr-30 {
+  padding-right: 150px;
+}
+
 .w-img img {
   width: 100%;
 }
@@ -1424,6 +1591,12 @@ img {
   letter-spacing: -0.36px;
 }
 
+.fns-14 {
+  font-size: 14px;
+}
+.fns-15 {
+  font-size: 15px;
+}
 .fns-16 {
   font-size: 16px;
 }
@@ -1462,6 +1635,10 @@ img {
 
 .clwhite {
   color: white;
+}
+
+.clgray {
+  color: #454449;
 }
 
 .br-12 {

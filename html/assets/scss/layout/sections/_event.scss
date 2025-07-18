@@ -1,0 +1,29 @@
+@use "../../utils/" as *;
+.akevent {
+  &-img {
+    bottom: 25px;
+    left: 0;
+    height: 340px;
+    width: 39%;
+  
+    & img {
+      border-radius: 0px 20px 20px 0px;
+    }
+  }
+  &-wrapper {
+    border: 1px solid white;
+    margin-bottom: 12px;
+  }
+  &-date {
+    border-right: 1px solid rgba(18, 16, 24, 0.1);
+  }
+  &-day {
+    color: #121018;
+    font-family: var(--tp-heading-color);
+    font-size: 34px;
+    font-weight: 700;
+  }
+  &-wrapper {
+    padding: 25px;
+  }
+}

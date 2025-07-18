@@ -1,0 +1,28 @@
+@use "../../utils/" as *;
+.aktextslider {
+  &-area {
+    background: var(--tp-theme-color);
+    padding: 20px 0;
+  }
+  &-content {
+    
+    & img {
+        
+    }
+    & h3 {
+      font-size: 80px;
+      font-weight: 300;
+    }
+  }
+}
+
+.ak-slide-transition{
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.textslider .swiper-slide {
+    width: auto; /* ensures slides adjust naturally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

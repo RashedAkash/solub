@@ -36,3 +36,10 @@
     padding-left: $i * 5px;
   }
 }
+@for $i from 1 through 30 {
+  .pr-#{$i} {
+    padding-right: $i * 5px;
+  }
+}
+
+
