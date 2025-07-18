@@ -63,60 +63,72 @@ img {
   font-family: var(--tp-font-sub);
   font-size: 30px;
 }
-.ak-title{	
-	font-size: 60px;
-	letter-spacing: -2.4px;
+.ak-title {
+  font-size: 60px;
+  letter-spacing: -2.4px;
 }
-.ak-pra-title{
-   color: #5a5860;
-    font-size: 18px;
-    line-height: 28px; /* 155.556% */
-    letter-spacing: -0.36px;
+.ak-pra-title {
+  color: #5a5860;
+  font-size: 18px;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
 }
 
-.fns{
-  &-16{
+.fns {
+  &-16 {
     font-size: 16px;
   }
-  &-18{
+  &-18 {
     font-size: 18px;
   }
-  &-34{
+  &-26 {
+    font-size: 26px;
+  }
+  &-34 {
     font-size: 34px;
   }
-  &-50{
+  &-50 {
     font-size: 50px;
   }
-  &-80{
+  &-80 {
     font-size: 80px;
   }
 }
 
-.fnw{
-  &-300{
+.fnw {
+  &-300 {
     font-weight: 300;
   }
-  &-400{
+  &-400 {
     font-weight: 400;
   }
-  &-500{
+  &-500 {
     font-weight: 500;
   }
-  &-600{
+  &-600 {
     font-weight: 600;
   }
-
 }
 
-.clgreen{
-  color: #073D30;
+
+// color
+.clgreen {
+  color: #073d30;
+}
+.clwhite{
+  color: white;
 }
 
-.br{
-  &-12{
+.br {
+  &-12 {
     border-radius: 12px;
   }
-  &-20{
+  &-20 {
     border-radius: 20px;
   }
+}
+
+//overflow
+.visible {
+  overflow: visible;
 }
