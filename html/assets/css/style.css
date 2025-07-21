@@ -37,12 +37,13 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sue+Ellen+Francisco&display=swap");
 :root {
-  --tp-theme-color: #ffcf4e;
-  --tp-primary-color: #073d30;
-  --tp-secondary-color: #fe4e15;
-  --tp-pink-color: #ff73ae;
+  --tp-theme-color: #FFCF4E;
+  --tp-primary-color: #073D30;
+  --tp-secondary-color: #FE4E15;
+  --tp-pink-color: #FF73AE;
   --tp-heading-color: #121018;
-  --tp-body-color: #5a5860;
+  --tp-body-color: #5A5860;
+  --tp-footer-color: #ffffffb3;
 }
 
 :root {
@@ -277,7 +278,7 @@
 .akvolunteers-author img {
   border-radius: 50%;
   border: 2px solid #fff;
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
   box-shadow: 0px 10px 30px 0px rgba(18, 16, 24, 0.2);
 }
 .akvolunteers-author1 {
@@ -345,7 +346,7 @@
   font-weight: 400;
 }
 .akfact-info {
-  border-left: 2px solid #ffcf4e;
+  border-left: 2px solid #FFCF4E;
 }
 
 .akbrand-img {
@@ -360,7 +361,7 @@
   left: 0;
   font-size: 280px;
   line-height: 1;
-  background: linear-gradient(179deg, #e0deda 39.13%, #f2f0ec 84.12%);
+  background: linear-gradient(179deg, #E0DEDA 39.13%, #F2F0EC 84.12%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -446,7 +447,7 @@
   margin-bottom: 5px;
 }
 .akfooter-link li a {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--tp-footer-color);
   font-size: 16px;
   font-weight: 500;
 }
@@ -479,18 +480,32 @@
   left: 0;
   z-index: 1;
 }
-.akfooter-mail a,
-.akfooter-tel a {
+.akfooter-mail a, .akfooter-tel a {
   color: #fff !important;
   font-size: 18px !important;
   font-weight: 600 !important;
   display: inline-block;
   transition: all 0.3s ease;
 }
-.akfooter-mail a:hover,
-.akfooter-tel a:hover {
+.akfooter-mail a:hover, .akfooter-tel a:hover {
   color: #00c897 !important; /* সুন্দর হাইলাইট কালার */
   text-decoration: underline;
+}
+.akfooter-border {
+  border-top: 1px solid rgba(248, 243, 231, 0.06);
+}
+.akfooter-copyright {
+  letter-spacing: -0.36px;
+}
+.akfooter-copyright h6 .akfooter-themepure {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.akfooter-copyright h6 .akfooter-themepure:hover {
+  color: #00c897;
+}
+.akfooter-shape {
+  top: -35px;
 }
 
 /* Color overlay */
@@ -660,12 +675,12 @@ button:focus {
   text-transform: capitalize;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-input[type="password"],
-input[type="url"],
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=password],
+input[type=url],
 textarea {
   outline: none;
   background-color: transparent;
@@ -679,57 +694,57 @@ textarea {
   text-transform: uppercase;
   font-weight: 500;
 }
-input[type="text"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder,
-input[type="tel"]::-webkit-input-placeholder,
-input[type="number"]::-webkit-input-placeholder,
-input[type="password"]::-webkit-input-placeholder,
-input[type="url"]::-webkit-input-placeholder,
+input[type=text]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder,
+input[type=password]::-webkit-input-placeholder,
+input[type=url]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #57595c;
 }
-input[type="text"]:-moz-placeholder,
-input[type="email"]:-moz-placeholder,
-input[type="tel"]:-moz-placeholder,
-input[type="number"]:-moz-placeholder,
-input[type="password"]:-moz-placeholder,
-input[type="url"]:-moz-placeholder,
+input[type=text]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
+input[type=tel]:-moz-placeholder,
+input[type=number]:-moz-placeholder,
+input[type=password]:-moz-placeholder,
+input[type=url]:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #57595c;
 }
-input[type="text"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder,
-input[type="tel"]::-moz-placeholder,
-input[type="number"]::-moz-placeholder,
-input[type="password"]::-moz-placeholder,
-input[type="url"]::-moz-placeholder,
+input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+input[type=tel]::-moz-placeholder,
+input[type=number]::-moz-placeholder,
+input[type=password]::-moz-placeholder,
+input[type=url]::-moz-placeholder,
 textarea::-moz-placeholder {
   color: #57595c;
 }
-input[type="text"]:-ms-input-placeholder,
-input[type="email"]:-ms-input-placeholder,
-input[type="tel"]:-ms-input-placeholder,
-input[type="number"]:-ms-input-placeholder,
-input[type="password"]:-ms-input-placeholder,
-input[type="url"]:-ms-input-placeholder,
+input[type=text]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder,
+input[type=number]:-ms-input-placeholder,
+input[type=password]:-ms-input-placeholder,
+input[type=url]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #57595c;
 }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="number"]:focus,
-input[type="password"]:focus,
-input[type="url"]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=url]:focus,
 textarea:focus {
   border-color: var(--tp-common-black);
 }
-input[type="text"]:focus::placeholder,
-input[type="email"]:focus::placeholder,
-input[type="tel"]:focus::placeholder,
-input[type="number"]:focus::placeholder,
-input[type="password"]:focus::placeholder,
-input[type="url"]:focus::placeholder,
+input[type=text]:focus::placeholder,
+input[type=email]:focus::placeholder,
+input[type=tel]:focus::placeholder,
+input[type=number]:focus::placeholder,
+input[type=password]:focus::placeholder,
+input[type=url]:focus::placeholder,
 textarea:focus::placeholder {
   opacity: 0;
 }
@@ -1720,8 +1735,17 @@ img {
 .visible {
   overflow: visible;
 }
+
 .ml_25 {
   margin-left: -25px;
+}
+
+.footer-text-color {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+
+.top-55 {
+  top: -55px;
 }
 
 /*# sourceMappingURL=style.css.map */

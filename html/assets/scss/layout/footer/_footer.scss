@@ -1,6 +1,7 @@
 @use "../../utils/" as *;
 
 .akfooter {
+ 
   &-widget {
     &-2 {
     }
@@ -15,7 +16,7 @@
       list-style: none;
       margin-bottom: 5px;
       & a {
-        color: rgba(255, 255, 255, 0.7);
+        color: var(--tp-footer-color);
         font-size: 16px;
         font-weight: 500;
       }
@@ -59,10 +60,29 @@
       display: inline-block;
       transition: all 0.3s ease;
       &:hover {
-        color: #00c897  !important; /* সুন্দর হাইলাইট কালার */
+        color: #00c897 !important; /* সুন্দর হাইলাইট কালার */
         text-decoration: underline;
       }
     }
+  }
+  &-border {
+    border-top: 1px solid rgba(248, 243, 231, 0.06);
+  }
+  &-copyright {
+    letter-spacing: -0.36px;
+    & h6 {
+      .akfooter-themepure {
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: #00c897;
+        }
+      }
+    }
+  }
+  &-shape{
+    top: -35px;
   }
 }
 

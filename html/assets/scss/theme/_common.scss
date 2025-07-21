@@ -75,10 +75,10 @@ img {
 }
 
 .fns {
-  &-14{
+  &-14 {
     font-size: 14px;
   }
-  &-15{
+  &-15 {
     font-size: 15px;
   }
   &-16 {
@@ -116,15 +116,14 @@ img {
   }
 }
 
-
 // color
 .clgreen {
   color: #073d30;
 }
-.clwhite{
+.clwhite {
   color: white;
 }
-.clgray{
+.clgray {
   color: #454449;
 }
 
@@ -140,4 +139,18 @@ img {
 //overflow
 .visible {
   overflow: visible;
+}
+
+.ml_25 {
+  margin-left: -25px;
+}
+
+.footer-text-color {
+  color: #ffffffb3;
+}
+
+.top{
+  &-55{
+    top: -55px;
+  }
 }
