@@ -1,1 +1,78 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+
+.akfooter {
+  &-widget {
+    &-2 {
+    }
+  }
+  &-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &-link {
+    & li {
+      list-style: none;
+      margin-bottom: 5px;
+      & a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+  &-pra {
+    color: #fff;
+    font-family: var(--tp-font-heading);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px; /* 130.769% */
+    letter-spacing: -0.52px;
+  }
+  &-social {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    margin-right: 2px;
+  }
+  &-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  &-mail,
+  &-tel {
+    & a {
+      color: #fff !important;
+      font-size: 18px !important;
+      font-weight: 600 !important;
+      display: inline-block;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #00c897  !important; /* সুন্দর হাইলাইট কালার */
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Color overlay */
+.akfooter-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 61, 48, 0.9); /* opacity here */
+  z-index: 2;
+}
