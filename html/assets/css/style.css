@@ -52,17 +52,66 @@
   --tp-font-sub: "Sue Ellen Francisco", cursive;
 }
 
-.akheader-menu ul li {
-  display: inline-block;
-}
-.akheader-area {
-  width: 1424px;
-}
-.akheader-transparent {
-  position: absolute;
+.akheader-box {
   top: 26px;
-  z-index: 11;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
+.akheader-menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 21px 0;
+  margin-right: 35px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+.akheader-menu li:hover > .sub-menu {
+  opacity: 1;
+  display: block;
+  top: 102%;
+}
+.akheader-menu li:hover > a {
+  color: var(--tp-theme-color);
+}
+.akheader-menu li a {
+  color: var(--tp-primary-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.akheader-tel a {
+  color: var(--tp-primary-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+.akheader-btn {
+  color: var(--tp-primary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-menu {
+  opacity: 0;
+  transition: all 0.3s;
+  display: none;
+  background-color: var(--tp-primary-color);
+  width: 220px;
+  position: absolute;
+  padding: 20px;
+}
+.sub-menu li {
+  display: block;
+  left: 0;
+  top: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.sub-menu li a {
+  color: white;
+}
+
 .akabout-rotate-title {
   font-size: 130px;
   color: #e0deda;
@@ -437,6 +486,39 @@
   justify-content: center;
 }
 
+.akblog-shape {
+  bottom: 0;
+  height: 920px;
+  width: 40%;
+  left: 0;
+}
+.akblog-shape img {
+  height: 100%;
+  width: 100%;
+}
+.akblog-donate-content {
+  margin-left: 3px;
+}
+.akblog-donate-box {
+  margin-left: 130px;
+}
+.akblog-img a img {
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.akblog-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.akblog-date {
+  color: #454449;
+  letter-spacing: -0.16px;
+}
+.akblog-content {
+  margin-left: -15px;
+}
+
 .akfooter-title {
   color: #fff;
   font-size: 30px;
@@ -521,7 +603,7 @@
 
 .ak-btn {
   background: var(--tp-theme-color);
-  padding: 20px 37px;
+  padding: 20px 33px;
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
@@ -541,6 +623,11 @@
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
+}
+.ak-btn-arrow {
+  color: var(--tp-heading-color);
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .text-btn {
@@ -1657,6 +1744,10 @@ img {
   background-color: white;
 }
 
+.yellow-bg {
+  background-color: #FFCF4E;
+}
+
 .ak-subtitle {
   color: #ff73ae;
   font-family: var(--tp-font-sub);
@@ -1746,6 +1837,13 @@ img {
 
 .top-55 {
   top: -55px;
+}
+
+.container-1424 {
+  max-width: 1424px;
+}
+.container-1400 {
+  max-width: 1400px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 @use "../utils/" as *;
 .ak-btn {
   background: var(--tp-theme-color);
-  padding: 20px 37px;
+  padding: 20px 33px;
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
@@ -20,6 +20,11 @@
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
+  }
+  &-arrow {
+    color: var(--tp-heading-color);
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 

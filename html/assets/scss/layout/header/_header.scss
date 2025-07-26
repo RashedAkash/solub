@@ -1,26 +1,68 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
 .akheader {
-  &-menu{
-    & ul{
-      & li{
-        display: inline-block;
-        & a{
-
-        }
+  &-box {
+    top: 26px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &-menu {
+    & li {
+      &:hover > .sub-menu {
+        opacity: 1;
+        display: block;
+        top: 102%;
+      }
+      &:hover > a {
+        color: var(--tp-theme-color);
+      }
+      display: inline-block;
+      list-style: none;
+      padding: 21px 0;
+      margin-right: 35px;
+      cursor: pointer;
+      position: relative;
+      transition: all .3s;
+      & a {
+        color: var(--tp-primary-color);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
       }
     }
   }
-  &-area{
-    width: 1424px;
-  }
-  &-transparent {
-    position: absolute;
-    top: 26px;
-    z-index: 11;
-  }
-  &-logo {
-    & img {
+  &-tel {
+    & a {
+      color: var(--tp-primary-color);
+      font-size: 15px;
+      font-weight: 600;
     }
   }
- 
+  &-btn {
+    color: var(--tp-primary-color);
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.sub-menu {
+  opacity: 0;
+  transition: all .3s;
+  display: none;
+
+  background-color: var(--tp-primary-color);
+  width: 220px;
+  position: absolute;
+  padding: 20px;
+  & li {
+    display: block;
+    left: 0;
+    top: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+
+    & a {
+      color: white;
+    }
+  }
 }

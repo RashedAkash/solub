@@ -58,6 +58,9 @@ img {
 .white-bg {
   background-color: white;
 }
+.yellow-bg {
+  background-color: #FFCF4E;
+}
 .ak-subtitle {
   color: #ff73ae;
   font-family: var(--tp-font-sub);
@@ -152,5 +155,15 @@ img {
 .top{
   &-55{
     top: -55px;
+  }
+}
+
+// container
+.container{
+  &-1424{
+    max-width: 1424px;
+  }
+  &-1400{
+    max-width: 1400px;
   }
 }

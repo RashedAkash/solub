@@ -1,0 +1,41 @@
+@use "../../utils/" as *;
+.akblog {
+  &-shape {
+    bottom: 0;
+    height: 920px;
+    width: 40%;   
+    left: 0;
+    & img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &-donate {
+    &-content{
+      margin-left: 3px;
+    }
+    &-box {
+      margin-left: 130px;
+    }
+  }
+  &-img {
+    & a {
+      & img {
+        height: 100%;
+        object-fit: cover; // ইমেজ কেটে ফ্রেমে ফিট করাবে
+        display: block;
+      }
+    }
+  }
+  &-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  &-date {
+    color: #454449;
+    letter-spacing: -0.16px;
+  }
+  &-content {
+    margin-left: -15px;
+  }
+}
