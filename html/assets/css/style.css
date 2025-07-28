@@ -178,6 +178,17 @@
   top: 25%;
 }
 
+@media lg {
+  .ak-hero-img {
+    margin-top: 25px;
+    padding-top: 30px;
+  }
+}
+@media xs {
+  .ak-hero-img {
+    margin-right: 0;
+  }
+}
 .ak-hero-area {
   padding-top: 290px;
   padding-bottom: 340px;
@@ -188,6 +199,16 @@
   letter-spacing: -3.6px;
   color: white;
 }
+@media (max-width: 767px) {
+  .ak-hero-title {
+    font-size: 53px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ak-hero-title {
+    font-size: 100px;
+  }
+}
 .ak-hero-sub-title {
   font-size: 50px;
   color: var(--tp-theme-color);
@@ -197,13 +218,69 @@
   top: 33%;
   left: 8%;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .ak-hero-shape-1 {
+    top: 11%;
+    left: 8%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .ak-hero-shape-1 {
+    top: 12%;
+    left: 8%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ak-hero-shape-1 {
+    top: 17%;
+    left: 38%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ak-hero-shape-1 {
+    top: 33%;
+    right: 8%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ak-hero-shape-1 {
+    bottom: 26%;
+    right: 8%;
+  }
+}
+@media (max-width: 767px) {
+  .ak-hero-shape-1 {
+    display: none;
+  }
+}
 .ak-hero-shape-2 {
   bottom: 20%;
   left: 8%;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ak-hero-shape-2 {
+    bottom: 27%;
+    left: 8%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ak-hero-shape-2 {
+    bottom: 26%;
+    left: 8%;
+  }
+}
 .ak-hero-bottom-shape {
   bottom: 0;
   left: 0;
+}
+@media (max-width: 767px) {
+  .ak-hero-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 }
 
 .akservices {
@@ -212,6 +289,11 @@
   padding: 50px 10px 37px;
   border-bottom: 4px solid #f55;
   transition: all 0.3s;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akservices {
+    margin-top: 60px;
+  }
 }
 .akservices:hover {
   transform: translateY(-10px);
@@ -610,10 +692,15 @@
 }
 .ak-btn-white {
   background-color: white;
-  padding: 16px 30px;
+  padding: 20px 30px;
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
+}
+@media (max-width: 767px) {
+  .ak-btn-white {
+    margin-left: 0;
+  }
 }
 .ak-btn-border {
   border-radius: 12px;
