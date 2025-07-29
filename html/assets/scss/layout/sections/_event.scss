@@ -5,9 +5,13 @@
     left: 0;
     height: 340px;
     width: 39%;
+     @media #{$lg} {
+        width: 32%;
+      }
   
     & img {
       border-radius: 0px 20px 20px 0px;
+     
     }
   }
   &-wrapper {

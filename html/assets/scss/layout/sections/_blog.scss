@@ -1,17 +1,26 @@
 @use "../../utils/" as *;
 .akblog {
+  &-title {
+    @media #{$lg} {
+      font-size: 30px;
+    }
+  }
+
   &-shape {
     bottom: 0;
     height: 920px;
-    width: 40%;   
+    width: 40%;
     left: 0;
-    & img{
+    @media #{$lg} {
+      display: none;
+    }
+    & img {
       height: 100%;
       width: 100%;
     }
   }
   &-donate {
-    &-content{
+    &-content {
       margin-left: 3px;
     }
     &-box {
@@ -19,6 +28,9 @@
     }
   }
   &-img {
+    @media #{$lg} {
+      margin-right: 20px;
+    }
     & a {
       & img {
         height: 100%;

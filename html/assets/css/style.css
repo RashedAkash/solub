@@ -172,6 +172,16 @@
   top: -90px;
   right: -120%;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .akabout-wood {
+    right: -70%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akabout-wood {
+    right: -100%;
+  }
+}
 .akabout-hand {
   mix-blend-mode: exclusion;
   left: -46%;
@@ -298,6 +308,9 @@
 .akservices:hover {
   transform: translateY(-10px);
   box-shadow: 0px 20px 60px 0px rgba(41, 28, 3, 0.1);
+}
+.akcauses-area {
+  margin-top: 80px;
 }
 .akcauses-label {
   color: #121018;
@@ -477,7 +490,12 @@
   font-weight: 400;
 }
 .akfact-info {
-  border-left: 2px solid #FFCF4E;
+  border-left: 2px solid #ffcf4e;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akfact-info {
+    width: 50%;
+  }
 }
 
 .akbrand-img {
@@ -527,6 +545,11 @@
   height: 340px;
   width: 39%;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akevent-img {
+    width: 32%;
+  }
+}
 .akevent-img img {
   border-radius: 0px 20px 20px 0px;
 }
@@ -568,11 +591,21 @@
   justify-content: center;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akblog-title {
+    font-size: 30px;
+  }
+}
 .akblog-shape {
   bottom: 0;
   height: 920px;
   width: 40%;
   left: 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akblog-shape {
+    display: none;
+  }
 }
 .akblog-shape img {
   height: 100%;
@@ -583,6 +616,11 @@
 }
 .akblog-donate-box {
   margin-left: 130px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .akblog-img {
+    margin-right: 20px;
+  }
 }
 .akblog-img a img {
   height: 100%;

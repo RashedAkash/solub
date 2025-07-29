@@ -1,5 +1,6 @@
 @use "../../utils/" as *;
 .akabout {
+ 
   &-rotate-title {
     font-size: 130px;
     color: #e0deda;
@@ -73,10 +74,17 @@
   &-wood {
     top: -90px;
     right: -120%;
+    @media #{$xxlm} {
+       right: -70%;
+    }
+    @media #{$lg} {
+       right: -100%;
+    }
   }
   &-hand{
     mix-blend-mode: exclusion;
      left: -46%;
     top: 25%;
   }
+   
 }
