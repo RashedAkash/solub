@@ -69,6 +69,9 @@ img {
 .ak-title {
   font-size: 60px;
   letter-spacing: -2.4px;
+  @media #{$xs} {
+      font-size: 40px;
+    }
 }
 .ak-pra-title {
   color: #5a5860;

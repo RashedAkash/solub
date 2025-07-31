@@ -1,17 +1,28 @@
 @use "../../utils/" as *;
 .akevent {
+  &-title {
+    @media #{$md,$xs} {
+      
+      margin-bottom: 60px;
+    }
+  }
   &-img {
     bottom: 25px;
     left: 0;
     height: 340px;
     width: 39%;
-     @media #{$lg} {
-        width: 32%;
-      }
-  
+    @media #{$lg} {
+      width: 32%;
+    }
+    @media #{$md,$xs} {
+      position: static;
+      width: 100%;
+      margin-bottom: 60px;
+      height: 100%;
+    }
+
     & img {
       border-radius: 0px 20px 20px 0px;
-     
     }
   }
   &-wrapper {
@@ -29,5 +40,15 @@
   }
   &-wrapper {
     padding: 25px;
+  }
+  &-content {
+    & h5 {
+      font-size: 20px;
+    }
+  }
+  &-item {
+    @media #{$xs} {
+      margin-right: 0;
+    }
   }
 }

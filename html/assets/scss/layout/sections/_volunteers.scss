@@ -14,6 +14,9 @@
   &-author1 {
     bottom: 25px;
     left: 343px;
+     @media #{$md} {
+      display: none;
+    }
   }
   &-author2 {
     top: 25px;
@@ -22,6 +25,9 @@
   &-author3 {
     top: 25px;
     left: 343px;
+     @media #{$md,$xs} {
+      display: none;
+    }
   }
 
   &-author4 {
@@ -29,27 +35,42 @@
     left: 0;
     right: 0;
     margin: auto;
+     @media #{$md} {
+      display: none;
+    }
   }
   &-author5 {
     top: 50%;
     left: 200px;
+     @media #{$xs} {
+      display: none;
+    }
   }
   &-author6 {
     bottom: 30%;
     left: 0;
     right: 0;
     margin: auto;
+     @media #{$md,$xs} {
+      display: none;
+    }
   }
   &-author7 {
     bottom: 50%;
     right: 20%;
+    
   }
   &-author8 {
     top: 10%;
     right: 10%;
+     @media #{$xs} {
+      display: none;
+    }
+    
   }
   &-author9 {
     bottom: 10%;
     right: 10%;
+    
   }
 }

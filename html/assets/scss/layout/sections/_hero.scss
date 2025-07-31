@@ -1,5 +1,10 @@
 @use "../../utils/" as *;
 .ak-hero {
+  &-content{
+     @media #{$md} {
+    margin-bottom: 60px;
+    }
+  }
   &-img {
     @media #{lg} {
       margin-top: 25px;
@@ -12,7 +17,15 @@
   }
   &-area {
     padding-top: 290px;
-    padding-bottom: 340px;
+    padding-bottom: 300px;
+    @media #{$md} {
+     padding-top: 200px;
+    padding-bottom: 300px;;
+    }
+    @media #{$xs} {
+     padding-top: 200px;
+    padding-bottom: 250px;;
+    }
   }
   &-title {
     font-size: 120px;
@@ -24,6 +37,9 @@
     }
     @media #{$lg} {
       font-size: 100px;
+    }
+    @media #{$md} {
+      font-size: 91px;
     }
   }
   &-sub-title {
@@ -55,8 +71,9 @@
       left: 38%;
     }
     @media #{$md} {
-      top: 33%;
-      right: 8%;
+      top: 19%;
+      right: 9%;
+      left: auto;
     }
     @media #{$sm} {
       bottom: 26%;
@@ -81,14 +98,19 @@
   &-bottom-shape {
     bottom: 0;
     left: 0;
+     @media #{$xs} {
+      
+    }
   }
   &-btn {
     @media #{$xs} {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
+      
+    }
+  }
+  &-vedio{
+    @media #{$xs} {
+      margin-top: 40px;
+      display: block;
     }
   }
 }

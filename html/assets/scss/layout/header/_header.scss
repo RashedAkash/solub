@@ -1,5 +1,9 @@
 @use "../../utils/" as *;
 .akheader {
+  &-bars{
+    font-size: 30px;
+    padding-right: 20px;
+  }
   &-box {
     top: 26px;
     width: 100%;

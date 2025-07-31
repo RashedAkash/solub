@@ -5,6 +5,9 @@
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
+   @media #{$xs} {
+      padding: 15px 20px;
+    }
   &-white {
     background-color: white;
     padding: 20px 30px;
@@ -12,7 +15,7 @@
     color: var(--tp-font-color);
     font-weight: 600;
     @media #{$xs} {
-      margin-left: 0;
+      padding: 15px 20px;
     }
   }
   &-border {

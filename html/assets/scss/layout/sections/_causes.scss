@@ -1,7 +1,12 @@
 @use "../../utils/" as *;
 .akcauses {
    &-area{
-    margin-top: 80px;
+   
+  }
+  &-img{
+    & img{
+      width: 100%;
+    }
   }
   
   &-label {
@@ -41,6 +46,9 @@
     top: -55px;
     left: -5px;
     height: 100%;
+    @media #{$xs} {
+      font-size: 200px;
+    }
   }
 
   &-content {
@@ -124,4 +132,7 @@
 
 .swiper.akcauses-slider.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
   margin-right: -610px;
+   @media #{$xs} {
+      margin-right: 0;
+    }
 }

@@ -9,12 +9,35 @@
   &-link {
     padding: 10px 0;
     width: 33.33%;
+    @media #{$xs} {
+      width: 100%;
+    }
     &.active {
       background-color: #ffcf4e;
       height: 50px;
       border-radius: 12px;
-      color: var( --tp-heading-color);
+      color: var(--tp-heading-color);
       font-weight: 500;
     }
+  }
+}
+
+.aktabs {
+  &-title {
+    font-size: 30px;
+  }
+  &-img {
+    @media #{$md,$xs} {
+      margin-top: 60px;
+      padding-left: 0;
+    }
+    & img {
+      width: 100%;
+    }
+  }
+}
+div#nav-tabContent {
+  @media #{$md} {
+    margin-top: 40px;
   }
 }

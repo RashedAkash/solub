@@ -9,7 +9,7 @@
   }
   &-info {
     border-left: 2px solid #ffcf4e;
-    @media #{$lg} {
+    @media #{$lg,$md} {
       width: 50%;
     }
   }

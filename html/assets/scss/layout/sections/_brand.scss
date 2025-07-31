@@ -1,17 +1,20 @@
 @use "../../utils/" as *;
 
-.akbrand{
-    &-title{
-        
-    }
-&-img{
+.akbrand {
+  &-area {
+     @media #{$xs} {
+       padding-top: 60px;
+      }
+  }
+  &-title {
+  }
+  &-img {
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    & img{
-       
+    & img {
     }
-}
+  }
 }

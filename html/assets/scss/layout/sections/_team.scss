@@ -1,5 +1,8 @@
 @use "../../utils/" as *;
 .akteam {
+  &-arrow{
+    
+  }
   
   &-area {
     // section wrapper (optional styles)
@@ -17,6 +20,10 @@
     -webkit-text-fill-color: transparent;
     z-index: 1;
     pointer-events: none;
+    @media #{$xs} {
+    font-size: 170px;
+    }
+    
   }
 
   &-img {

@@ -3,7 +3,10 @@
 .akfooter {
  
   &-widget {
-    &-2 {
+    &-3 {
+      @media #{$md,$xs} {
+        margin-left: 0;
+      }
     }
   }
   &-title {

@@ -1,8 +1,13 @@
 @use "../../utils/" as *;
 .akblog {
+
   &-title {
     @media #{$lg} {
-      font-size: 30px;
+      font-size: 60px;
+    }
+    @media #{$md,$xs} {
+      font-size: 60px;
+      margin-bottom: 60px;
     }
   }
 
@@ -11,8 +16,17 @@
     height: 920px;
     width: 40%;
     left: 0;
-    @media #{$lg} {
-      display: none;
+    @media #{$xs} {
+      height: 550px;
+      width: 100%;
+    }
+    @media #{$lg,$md} {
+      height: 750px;
+      width: 100%;
+    }
+
+    @media #{$xs,$lg,$md} {
+      position: static;
     }
     & img {
       height: 100%;
@@ -20,15 +34,34 @@
     }
   }
   &-donate {
+    
     &-content {
       margin-left: 3px;
+      @media #{$xs} {
+       margin-top: 60px;
+      }
+    }
+    &-title {
+      @media #{$md,$xs} {
+        font-size: 40px;
+      }
     }
     &-box {
       margin-left: 130px;
+      @media #{$lg,$md,$xs} {
+        margin-left: 0;
+      }
     }
   }
   &-img {
     @media #{$lg} {
+      margin-right: 20px;
+    }
+    @media #{$md} {
+      margin-right: 20px;
+      margin-top: 40px;
+    }
+    @media #{$xs} {
       margin-right: 20px;
     }
     & a {
@@ -49,5 +82,10 @@
   }
   &-content {
     margin-left: -15px;
+     @media #{$xs} {
+      margin-left: 0;
+      margin-top: 16px;
+    }
   }
+   
 }
