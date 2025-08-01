@@ -1279,6 +1279,9 @@ img {
 .fnw-600 {
   font-weight: 600;
 }
+.fnw-700 {
+  font-weight: 700;
+}
 
 .clgreen {
   color: #073d30;
@@ -1384,6 +1387,61 @@ img {
 }
 .sub-menu li a {
   color: white;
+}
+
+.akoffcanvas-overlay-active {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  transition: all 0.3s;
+  z-index: 12;
+}
+.akoffcanvas-box {
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  width: 400px;
+  padding: 50px 40px;
+  background: white;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.akoffcanvas-active {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.akoffcanvas-button-close {
+  font-size: 28px;
+  color: var(--tp-heading-color);
+}
+.akoffcanvas-gallery {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.akoffcanvas-cantact {
+  display: flex;
+  flex-direction: column;
+}
+.akoffcanvas-social {
+  width: 50px;
+  height: 50px;
+  background-color: var(--tp-theme-color);
+  display: inline-block;
+  text-align: center;
+  line-height: 2.6;
+  border-radius: 12px;
 }
 
 .akabout-rotate-title {
@@ -1610,24 +1668,13 @@ img {
   }
 }
 
-.akservices {
-  border-radius: 16px 16px 0px 0px;
-  padding: 50px 10px 37px;
-  border-bottom: 4px solid #f55;
-  transition: all 0.3s;
+.akservices2-box {
+  padding: 47px 40px;
 }
-.akservices-area {
-  margin-top: -140px;
+.akservices2-pra {
+  line-height: 150%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .akservices-area {
-    margin-top: -120px;
-  }
-}
-.akservices:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 20px 60px 0px rgba(41, 28, 3, 0.1);
-}
+
 .akcauses-img img {
   width: 100%;
 }

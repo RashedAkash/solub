@@ -1,0 +1,53 @@
+@use "../../utils/" as *;
+.akoffcanvas {
+  &-overlay {
+    &-active {
+      width: 100%;
+      height: 100%;
+      background: black;
+      position: absolute;
+      transition: all 0.3s;
+      z-index: 12;
+    }
+  }
+  &-box {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    width: 400px;
+    padding: 50px 40px;
+    background: white;
+    height: 100%;
+    @include translateX(100%);
+    @include tp-transition(0.3s);
+  }
+  &-active {
+    @include translateX(0);
+  }
+  &-header {
+  }
+  &-button {
+    &-close {
+      font-size: 28px;
+      color: var(--tp-heading-color);
+    }
+  }
+  &-gallery {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+  }
+  &-cantact {
+    display: flex;
+    flex-direction: column;
+  }
+  &-social {
+    width: 50px;
+    height: 50px;
+    background-color: var(--tp-theme-color);
+    display: inline-block;
+    text-align: center;
+    line-height: 2.6;
+    border-radius: 12px;
+  }
+}
