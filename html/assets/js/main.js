@@ -71,6 +71,34 @@
       },
     },
   });
+  //latest News slider
+  var swiper = new Swiper(".aklatestNews-slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: ".akcauses-next",
+      prevEl: ".akcauses-prev",
+    },
+    breakpoints: {
+    340: {
+        slidesPerView: 1,
+        
+      },
+      640: {
+        slidesPerView: 1,
+        
+      },
+      768: {
+        slidesPerView: 2,
+        
+      },
+      1024: {
+        slidesPerView: 3,
+        
+      },
+    },
+  });
 
   //text slider
   var swiper = new Swiper(".textslider", {

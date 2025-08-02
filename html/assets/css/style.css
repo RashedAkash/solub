@@ -2229,6 +2229,14 @@ img {
   color: var(--tp-primary-color);
   padding: 6px 20px;
 }
+.aklatestNews-img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.aklatestNews-slider.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+  margin-right: -626px;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .akfooter-widget-3 {
