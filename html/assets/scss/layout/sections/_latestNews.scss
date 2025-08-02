@@ -1,0 +1,20 @@
+@use "../../utils/" as *;
+.aklatestNews{
+    &-box{
+        box-shadow: rgba(22, 18, 5, 0.08);
+    }
+    &-education{
+        padding: 6px 13px;
+    }
+    &-content{
+        padding: 40px 32px 40px 0px;
+    }
+    &-pra{
+        line-height: 150%;
+    }
+    &-btn{
+        background-color: var(--tp-theme-color);
+        color: var(--tp-primary-color);
+        padding: 6px 20px;
+    }
+}

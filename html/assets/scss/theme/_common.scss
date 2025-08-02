@@ -83,6 +83,9 @@ img {
 }
 
 .fns {
+  &-12 {
+    font-size: 12px;
+  }
   &-14 {
     font-size: 14px;
   }
@@ -142,8 +145,14 @@ img {
 }
 
 .br {
+  &-8 {
+    border-radius: 8px;
+  }
   &-12 {
     border-radius: 12px;
+  }
+  &-16 {
+    border-radius: 16px;
   }
   &-20 {
     border-radius: 20px;
@@ -182,4 +191,7 @@ img {
 // letter spacing
 .lts-4{
   letter-spacing: -0.04em;
+}
+.lts-2{
+  letter-spacing: -0.02em;
 }
