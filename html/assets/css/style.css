@@ -44,6 +44,7 @@
   --tp-heading-color: #121018;
   --tp-body-color: #5A5860;
   --tp-footer-color: #ffffffb3;
+  --tp-white-color: #f8f3e7;
 }
 
 :root {
@@ -1228,6 +1229,8 @@ img {
 .ak-title {
   font-size: 60px;
   letter-spacing: -2.4px;
+  font-weight: 700;
+  line-height: 1;
 }
 @media (max-width: 767px) {
   .ak-title {
@@ -1253,6 +1256,9 @@ img {
 }
 .fns-18 {
   font-size: 18px;
+}
+.fns-24 {
+  font-size: 24px;
 }
 .fns-26 {
   font-size: 26px;
@@ -1323,6 +1329,10 @@ img {
 }
 .container-1400 {
   max-width: 1400px;
+}
+
+.lts-4 {
+  letter-spacing: -0.04em;
 }
 
 .akheader-bars {
@@ -1673,6 +1683,12 @@ img {
 }
 .akservices2-pra {
   line-height: 150%;
+}
+.akservices2-money {
+  color: var(--tp-primary-color);
+}
+.akservices2-money-img {
+  margin-top: -12px;
 }
 
 .akcauses-img img {
@@ -2148,6 +2164,39 @@ img {
     margin-left: 0;
     margin-top: 16px;
   }
+}
+
+.akprocess-number {
+  background: var(--tp-white-color);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  color: var(--tp-primary-color);
+  line-height: 3;
+  display: inline-block;
+}
+.akprocess-box1 {
+  position: relative;
+}
+.akprocess-arrow1 {
+  right: -75px;
+  top: 29px;
+}
+.akprocess-heading {
+  letter-spacing: -0.04em;
+}
+.akprocess-donate {
+  border: 1px solid rgba(248, 243, 231, 0.1);
+  border-radius: 20px;
+  padding: 8px 22px;
+}
+.akprocess-shape-1 {
+  top: -132px;
+  right: 0;
+}
+.akprocess-shape-2 {
+  top: -202px;
+  left: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {

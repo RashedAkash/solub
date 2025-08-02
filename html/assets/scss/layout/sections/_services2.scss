@@ -6,4 +6,10 @@
     &-pra{
         line-height: 150%;
     }
+    &-money{
+        color: var(--tp-primary-color);
+        &-img{
+            margin-top: -12px;
+        }
+    }
 }
