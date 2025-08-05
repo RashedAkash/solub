@@ -1,9 +1,8 @@
 @use "../../utils/" as *;
 .akteam {
-  &-arrow{
-    
+  &-arrow {
   }
-  
+
   &-area {
     // section wrapper (optional styles)
   }
@@ -14,16 +13,15 @@
     left: 0;
     font-size: 280px;
     line-height: 1;
-    background: linear-gradient(179deg, #E0DEDA 39.13%, #F2F0EC 84.12%);
+    background: linear-gradient(179deg, #e0deda 39.13%, #f2f0ec 84.12%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 1;
     pointer-events: none;
     @media #{$xs} {
-    font-size: 170px;
+      font-size: 170px;
     }
-    
   }
 
   &-img {
@@ -49,9 +47,34 @@
   }
 
   &-content {
-   bottom: 30px;
-   text-align: center;
-   left: 0;
-   right: 0;
+    bottom: 30px;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+}
+
+.akteam2 {
+  &-box {
+    &-4 {
+      height: 520px;
+    }
+  }
+  &-join {
+      margin-top: -75px;
+  }
+  &-voluntears {
+    font-family: var(--tp-font-heading);
+  }
+  &-shape {
+    left: 0;
+    bottom: 0;
+  }
+  &-content {
+    margin-top: 15px;
+  }
+  &-banner-shape {
+    left: 0;
+    bottom: -5px;
   }
 }
