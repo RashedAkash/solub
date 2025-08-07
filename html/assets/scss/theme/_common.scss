@@ -1,4 +1,7 @@
 @use "../utils/" as *;
+*li{
+  list-style: none;
+}
 
 .w-img {
   & img {
@@ -214,4 +217,11 @@ img {
 //
 .h-6{
   height: 6px;
+}
+
+//line height
+.lh{
+  &-1-6{
+    line-height: 162%;
+  }
 }
