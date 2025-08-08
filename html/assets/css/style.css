@@ -601,6 +601,46 @@ textarea {
   margin-top: 100px;
 }
 
+.mt-21 {
+  margin-top: 105px;
+}
+
+.mt-22 {
+  margin-top: 110px;
+}
+
+.mt-23 {
+  margin-top: 115px;
+}
+
+.mt-24 {
+  margin-top: 120px;
+}
+
+.mt-25 {
+  margin-top: 125px;
+}
+
+.mt-26 {
+  margin-top: 130px;
+}
+
+.mt-27 {
+  margin-top: 135px;
+}
+
+.mt-28 {
+  margin-top: 140px;
+}
+
+.mt-29 {
+  margin-top: 145px;
+}
+
+.mt-30 {
+  margin-top: 150px;
+}
+
 .mb-1 {
   margin-bottom: 5px;
 }
@@ -679,6 +719,46 @@ textarea {
 
 .mb-20 {
   margin-bottom: 100px;
+}
+
+.mb-21 {
+  margin-bottom: 105px;
+}
+
+.mb-22 {
+  margin-bottom: 110px;
+}
+
+.mb-23 {
+  margin-bottom: 115px;
+}
+
+.mb-24 {
+  margin-bottom: 120px;
+}
+
+.mb-25 {
+  margin-bottom: 125px;
+}
+
+.mb-26 {
+  margin-bottom: 130px;
+}
+
+.mb-27 {
+  margin-bottom: 135px;
+}
+
+.mb-28 {
+  margin-bottom: 140px;
+}
+
+.mb-29 {
+  margin-bottom: 145px;
+}
+
+.mb-30 {
+  margin-bottom: 150px;
 }
 
 .pb-1 {
@@ -1288,6 +1368,9 @@ img {
 .fns-30 {
   font-size: 30px;
 }
+.fns-40 {
+  font-size: 40px;
+}
 .fns-34 {
   font-size: 34px;
 }
@@ -1296,6 +1379,9 @@ img {
 }
 .fns-80 {
   font-size: 80px;
+}
+.fns-150 {
+  font-size: 150px;
 }
 
 .fnw-300 {
@@ -1379,6 +1465,13 @@ img {
 
 .lh-1-6 {
   line-height: 162%;
+}
+.lh-1-2 {
+  line-height: 125%;
+}
+
+.font-heading {
+  font-family: var(--tp-font-heading);
 }
 
 .akheader-bars {
@@ -2318,6 +2411,52 @@ img {
   left: 0;
 }
 
+.akjoin-btn {
+  padding: 20px 47px;
+}
+.akjoin-img-1 {
+  border-radius: 90px;
+  right: 9%;
+  bottom: -45px;
+}
+.akjoin-img-2 {
+  border-radius: 100%;
+  right: -60px;
+  top: 25%;
+}
+.akjoin-img-3 {
+  border-radius: 90px;
+  left: -50px;
+  top: 14%;
+}
+.akjoin-img-4 {
+  bottom: -50px;
+  left: 13%;
+  border-radius: 100%;
+}
+.akjoin-bg-pink {
+  opacity: 0.5;
+  filter: blur(150px);
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  background-color: #ff73ae;
+  bottom: 0;
+  left: 30px;
+  border-radius: 300px;
+}
+.akjoin-bg-yellow {
+  border-radius: 300px;
+  opacity: 0.4;
+  background: #ffcf4e;
+  filter: blur(150px);
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  top: 0;
+  right: 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .akfooter-widget-3 {
     margin-left: 0;
@@ -2458,6 +2597,11 @@ img {
 }
 .akfooter2-border-top {
   border-top: 1px solid rgba(248, 243, 231, 0.06);
+}
+.akfooter2-shape-bg {
+  top: -36px;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

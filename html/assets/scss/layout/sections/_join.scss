@@ -1,0 +1,52 @@
+@use "../../utils/" as *;
+.akjoin {
+  &-btn {
+    padding: 20px 47px;
+  }
+  &-img {
+    &-1 {
+      border-radius: 90px;
+      right: 9%;
+      bottom: -45px;
+    }
+    &-2 {
+      border-radius: 100%;
+      right: -60px;
+      top: 25%;
+    }
+    &-3 {
+      border-radius: 90px;
+      left: -50px;
+      top: 14%;
+    }
+    &-4 {
+      bottom: -50px;
+      left: 13%;
+      border-radius: 100%;
+    }
+  }
+  &-bg {
+    &-pink {
+      opacity: 0.5;
+      filter: blur(150px);
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+      background-color: #ff73ae;
+      bottom: 0;
+      left: 30px;
+      border-radius: 300px;
+    }
+    &-yellow {
+      border-radius: 300px;
+      opacity: 0.4;
+      background: #ffcf4e;
+      filter: blur(150px);
+      width: 300px;
+      height: 300px;
+      flex-shrink: 0;
+      top: 0;
+      right: 0;
+    }
+  }
+}

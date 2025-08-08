@@ -118,6 +118,9 @@ img {
   &-30 {
     font-size: 30px;
   }
+  &-40 {
+    font-size: 40px;
+  }
   &-34 {
     font-size: 34px;
   }
@@ -126,6 +129,9 @@ img {
   }
   &-80 {
     font-size: 80px;
+  }
+  &-150 {
+    font-size: 150px;
   }
 }
 
@@ -223,5 +229,15 @@ img {
 .lh{
   &-1-6{
     line-height: 162%;
+  }
+  &-1-2{
+    line-height: 125%;
+  }
+}
+
+//font-family
+.font{
+  &-heading{
+    font-family: var(--tp-font-heading);
   }
 }
