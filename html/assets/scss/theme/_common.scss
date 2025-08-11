@@ -130,6 +130,9 @@ img {
   &-80 {
     font-size: 80px;
   }
+  &-100 {
+    font-size: 100px;
+  }
   &-150 {
     font-size: 150px;
   }
@@ -162,6 +165,12 @@ img {
 }
 .clgray {
   color: #454449;
+}
+.clyellow {
+  color: #FFCF4E;
+}
+.clwhite-2 {
+  color: #f8f3e7;
 }
 
 
@@ -233,11 +242,26 @@ img {
   &-1-2{
     line-height: 125%;
   }
+  &-1{
+    line-height: 100%;
+  }
+  &-1-1{
+    line-height: 110%;
+  }
 }
 
 //font-family
 .font{
   &-heading{
     font-family: var(--tp-font-heading);
+  }
+  &-libre{
+    font-family: var(--tp-font-libre)
+  }
+  &-tillana{
+    font-family: var(--tp-font-tillana)
+  }
+  &-inter{
+    font-family: var(--tp-font-body)
   }
 }

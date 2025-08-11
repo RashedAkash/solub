@@ -35,7 +35,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sue+Ellen+Francisco&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sue+Ellen+Francisco&family=Tillana:wght@400..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 :root {
   --tp-theme-color: #FFCF4E;
   --tp-primary-color: #073D30;
@@ -51,11 +51,13 @@
   --tp-font-heading: "Fraunces", serif;
   --tp-font-body: "Inter", sans-serif;
   --tp-font-sub: "Sue Ellen Francisco", cursive;
+  --tp-font-tillana: "Tillana", cursive;
+  --tp-font-libre: "Libre Baskerville", serif;
 }
 
 .ak-btn {
   background: var(--tp-theme-color);
-  padding: 20px 33px;
+  padding: 20px 30px;
   border-radius: 12px;
   color: var(--tp-font-color);
   font-weight: 600;
@@ -1380,6 +1382,9 @@ img {
 .fns-80 {
   font-size: 80px;
 }
+.fns-100 {
+  font-size: 100px;
+}
 .fns-150 {
   font-size: 150px;
 }
@@ -1410,6 +1415,14 @@ img {
 
 .clgray {
   color: #454449;
+}
+
+.clyellow {
+  color: #FFCF4E;
+}
+
+.clwhite-2 {
+  color: #f8f3e7;
 }
 
 .br-6 {
@@ -1469,9 +1482,24 @@ img {
 .lh-1-2 {
   line-height: 125%;
 }
+.lh-1 {
+  line-height: 100%;
+}
+.lh-1-1 {
+  line-height: 110%;
+}
 
 .font-heading {
   font-family: var(--tp-font-heading);
+}
+.font-libre {
+  font-family: var(--tp-font-libre);
+}
+.font-tillana {
+  font-family: var(--tp-font-tillana);
+}
+.font-inter {
+  font-family: var(--tp-font-body);
 }
 
 .akheader-bars {
@@ -1815,6 +1843,84 @@ img {
     margin-top: 40px;
     display: block;
   }
+}
+
+.akhero2-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48%;
+  height: 100%;
+  -webkit-mask-image: url("../img/mask/hero-mask.png");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
+  mask-image: url("../img/mask/hero-mask.png");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
+}
+.akhero2-img img {
+  width: 100%;
+  height: 100%;
+}
+.akhero2-area {
+  padding-top: 245px;
+  padding-bottom: 250px;
+}
+.akhero2-line {
+  left: -10px;
+  top: 0;
+  width: 30px;
+}
+.akhero2-shape-bottom {
+  bottom: -138px;
+  left: 0;
+}
+
+.akheroslider-wrapper {
+  padding-top: 200px;
+  padding-bottom: 240px;
+}
+.akheroslider-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.akheroslider-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.akheroslider-sub i {
+  background-color: #ffcf4e;
+  height: 1px;
+  width: 70px;
+  display: inline-block;
+}
+.akheroslider-btn {
+  padding: 20px 44px;
+}
+.akheroslider-pagination {
+  color: white;
+  width: 54px;
+  height: 54px;
+  border: 1px solid;
+  border-radius: 100%;
+  text-align: center;
+  top: 50%;
+  left: 64px;
+  z-index: 11;
+  transform: translateY(-50%);
+  position: absolute;
+  line-height: 3;
+}
+.akheroslider-next {
+  left: auto;
+  right: 64px;
 }
 
 .akservices2-box {

@@ -43,6 +43,16 @@
     type: "iframe",
     // other options
   });
+
+
+  // hero slider
+
+   var swiper = new Swiper(".myheroslider", {
+      navigation: {
+        nextEl: ".akheroslider-next",
+        prevEl: ".akheroslider-prev",
+      },
+    });
   //causes slider
   var swiper = new Swiper(".akcauses-slider", {
     slidesPerView: 3,
@@ -141,4 +151,21 @@
     allowTouchMove: false,
     grabCursor: false,
   });
+
+
+var swiper = new Swiper(".textslider2", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  loop: true,
+  speed: 4000, // slower = smoother
+  autoplay: {
+    delay: 0, // no delay at all
+    disableOnInteraction: false,
+  },
+  loopedSlides: 10, // increase if many slides
+  allowTouchMove: false,
+  grabCursor: false,
+});
+
+
 })(jQuery);

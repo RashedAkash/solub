@@ -1,8 +1,8 @@
 @use "../../utils/" as *;
 .ak-hero {
-  &-content{
-     @media #{$md} {
-    margin-bottom: 60px;
+  &-content {
+    @media #{$md} {
+      margin-bottom: 60px;
     }
   }
   &-img {
@@ -12,19 +12,18 @@
     }
     @media #{xs} {
       margin-right: 0;
-      
     }
   }
   &-area {
     padding-top: 290px;
     padding-bottom: 300px;
     @media #{$md} {
-     padding-top: 200px;
-    padding-bottom: 300px;;
+      padding-top: 200px;
+      padding-bottom: 300px;
     }
     @media #{$xs} {
-     padding-top: 200px;
-    padding-bottom: 250px;;
+      padding-top: 200px;
+      padding-bottom: 250px;
     }
   }
   &-title {
@@ -98,19 +97,106 @@
   &-bottom-shape {
     bottom: 0;
     left: 0;
-     @media #{$xs} {
-      
+    @media #{$xs} {
     }
   }
   &-btn {
     @media #{$xs} {
-      
     }
   }
-  &-vedio{
+  &-vedio {
     @media #{$xs} {
       margin-top: 40px;
       display: block;
     }
+  }
+}
+
+.akhero2 {
+  &-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 100%;
+    -webkit-mask-image: url("../img/mask/hero-mask.png");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+
+    mask-image: url("../img/mask/hero-mask.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-area {
+    padding-top: 245px;
+    padding-bottom: 250px;
+  }
+  &-line {
+    left: -10px;
+    top: 0;
+    width: 30px;
+  }
+  &-shape {
+    &-bottom {
+      bottom: -138px;
+      left: 0;
+    }
+  }
+}
+
+.akheroslider {
+  &-wrapper {
+    padding-top: 200px;
+    padding-bottom: 240px;
+  }
+  &-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  &-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    & i {
+      background-color: #ffcf4e;
+      height: 1px;
+      width: 70px;
+      display: inline-block;
+    }
+  }
+  &-btn {
+    padding: 20px 44px;
+  }
+  &-pagination {
+    color: white;
+    width: 54px;
+    height: 54px;
+    border: 1px solid;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+    left: 64px;
+    z-index: 11;
+    transform: translateY(-50%);
+    position: absolute;
+    line-height: 3;
+  }
+  &-arrow {
+  }
+  &-next {
+    left: auto;
+    right: 64px;
   }
 }
