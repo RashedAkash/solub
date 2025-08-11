@@ -81,6 +81,31 @@
       },
     },
   });
+  //gallery slider
+  var swiper = new Swiper(".akgallery-slider", {
+    slidesPerView: 5,
+    spaceBetween: 12,
+    freeMode: true,
+    
+    breakpoints: {
+    340: {
+        slidesPerView: 1,
+        
+      },
+      640: {
+        slidesPerView: 2,
+        
+      },
+      768: {
+        slidesPerView: 3,
+        
+      },
+      1024: {
+        slidesPerView: 5,
+        
+      },
+    },
+  });
   //latest News slider
   var swiper = new Swiper(".aklatestNews-slider", {
     slidesPerView: 3,

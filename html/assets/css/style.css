@@ -1440,6 +1440,9 @@ img {
 .br-20 {
   border-radius: 20px;
 }
+.br-24 {
+  border-radius: 24px;
+}
 
 .visible {
   overflow: visible;
@@ -1908,7 +1911,7 @@ img {
   color: white;
   width: 54px;
   height: 54px;
-  border: 1px solid;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   text-align: center;
   top: 50%;
