@@ -1,5 +1,14 @@
 @use "../utils/" as *;
 .ak-btn {
+  &-50{
+    font-size: 14px;
+    font-weight: 600;
+   color: var(--tp-heading-color);
+   text-transform: uppercase;
+   background: #ffcf4e;
+   padding: 17px 30px;
+   border-radius: 10px;
+  }
   background: var(--tp-theme-color);
   padding: 20px 30px;
   border-radius: 12px;

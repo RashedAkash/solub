@@ -2,7 +2,6 @@
 .akevent {
   &-title {
     @media #{$md,$xs} {
-      
       margin-bottom: 60px;
     }
   }
@@ -50,5 +49,29 @@
     @media #{$xs} {
       margin-right: 0;
     }
+  }
+}
+
+.aklatestevent {
+  &-box {
+    border-radius: 20px;
+    border: 1px solid rgba(136, 135, 139, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  &-content {
+    padding: 33px;
+    padding-top: 0;
+  }
+  &-date {
+    right: 20px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    background: #fe4e15;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
   }
 }

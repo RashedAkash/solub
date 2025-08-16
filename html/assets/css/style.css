@@ -62,6 +62,15 @@
   color: var(--tp-font-color);
   font-weight: 600;
 }
+.ak-btn-50 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tp-heading-color);
+  text-transform: uppercase;
+  background: #ffcf4e;
+  padding: 17px 30px;
+  border-radius: 10px;
+}
 @media (max-width: 767px) {
   .ak-btn {
     padding: 15px 20px;
@@ -1314,7 +1323,7 @@ img {
 }
 
 .yellow-bg {
-  background-color: #FFCF4E;
+  background-color: #ffcf4e;
 }
 
 .linear-bg {
@@ -1325,6 +1334,13 @@ img {
   color: #ff73ae;
   font-family: var(--tp-font-sub);
   font-size: 30px;
+}
+.ak-subtitle-2 {
+  font-family: var(--tp-font-tillana);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #fe4e15;
 }
 
 .ak-title {
@@ -1425,11 +1441,11 @@ img {
 }
 
 .clyellow {
-  color: #FFCF4E;
+  color: #ffcf4e;
 }
 
 .cltomatto {
-  color: #FE4E15;
+  color: #fe4e15;
 }
 
 .clwhite-2 {
@@ -1491,8 +1507,8 @@ img {
   letter-spacing: -0.02em;
 }
 
-.lts-56 {
-  letter-spacing: -0.56px;
+.lts-52 {
+  letter-spacing: -0.52px;
 }
 
 .h-6 {
@@ -1501,6 +1517,9 @@ img {
 
 .lh-24 {
   line-height: 24px;
+}
+.lh-36 {
+  line-height: 36px;
 }
 .lh-1-6 {
   line-height: 162%;
@@ -2349,6 +2368,28 @@ img {
   .akevent-item {
     margin-right: 0;
   }
+}
+
+.aklatestevent-box {
+  border-radius: 20px;
+  border: 1px solid rgba(136, 135, 139, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+}
+.aklatestevent-content {
+  padding: 33px;
+  padding-top: 0;
+}
+.aklatestevent-date {
+  right: 20px;
+  top: 20px;
+  width: 80px;
+  height: 80px;
+  background: #fe4e15;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
 }
 
 .aktextslider-area {
