@@ -2233,6 +2233,11 @@ img {
   justify-content: center;
   align-items: center;
 }
+.akbrandslider-wrapper {
+  border-top: 1px solid rgba(18, 16, 24, 0.1);
+  border-bottom: 1px solid rgba(18, 16, 24, 0.1);
+}
+
 .akteam-love {
   position: absolute;
   top: -120px;

@@ -106,6 +106,31 @@
       },
     },
   });
+  //brand slider
+  var swiper = new Swiper(".akbrand-slider", {
+    slidesPerView: 6,
+    spaceBetween: 12,
+    freeMode: true,
+    
+    breakpoints: {
+    340: {
+        slidesPerView: 1,
+        
+      },
+      640: {
+        slidesPerView: 2,
+        
+      },
+      768: {
+        slidesPerView: 3,
+        
+      },
+      1024: {
+        slidesPerView: 6,
+        
+      },
+    },
+  });
   //latest News slider
   var swiper = new Swiper(".aklatestNews-slider", {
     slidesPerView: 3,

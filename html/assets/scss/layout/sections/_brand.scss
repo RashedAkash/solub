@@ -18,3 +18,10 @@
     }
   }
 }
+
+.akbrandslider{
+  &-wrapper{
+    border-top: 1px solid  rgba(18, 16, 24, 0.10);
+    border-bottom: 1px solid  rgba(18, 16, 24, 0.10);
+  }
+}
