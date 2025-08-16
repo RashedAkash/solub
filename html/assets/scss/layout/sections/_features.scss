@@ -1,0 +1,11 @@
+@use "../../utils/" as *;
+.akfeatures {
+  &-box {
+    padding: 40px;
+    height: 274px;
+  }
+  &-img {
+    right: 40px;
+    bottom: 30px;
+  }
+}

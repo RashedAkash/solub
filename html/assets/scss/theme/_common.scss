@@ -115,6 +115,9 @@ img {
   &-26 {
     font-size: 26px;
   }
+  &-28 {
+    font-size: 28px;
+  }
   &-30 {
     font-size: 30px;
   }
@@ -166,8 +169,14 @@ img {
 .clgray {
   color: #454449;
 }
+.clgray-2 {
+  color: #545258;
+}
 .clyellow {
   color: #FFCF4E;
+}
+.cltomatto {
+  color: #FE4E15;
 }
 .clwhite-2 {
   color: #f8f3e7;
@@ -222,6 +231,11 @@ img {
   &-1400{
     max-width: 1400px;
   }
+  &-1430{
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
 
 // letter spacing
@@ -231,6 +245,9 @@ img {
 .lts-2{
   letter-spacing: -0.02em;
 }
+.lts-56{
+  letter-spacing: -0.56px;
+}
 
 //
 .h-6{
@@ -239,6 +256,9 @@ img {
 
 //line height
 .lh{
+  &-24{
+    line-height: 24px;
+  }
   &-1-6{
     line-height: 162%;
   }
