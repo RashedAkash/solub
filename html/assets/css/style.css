@@ -1440,6 +1440,10 @@ img {
   color: #545258;
 }
 
+.clgray-3 {
+  color: #6E6B76;
+}
+
 .clyellow {
   color: #ffcf4e;
 }
@@ -2642,6 +2646,31 @@ img {
 .akfeatures-img {
   right: 40px;
   bottom: 30px;
+}
+
+.aktestimonial-content {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.aktestimonial-author-name {
+  margin: 0;
+}
+.aktestimonial-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(18, 16, 24, 0.1);
+  text-align: center;
+  line-height: 2.7;
+  z-index: 11;
+}
+.aktestimonial-next {
+  left: auto;
+  right: 16%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {

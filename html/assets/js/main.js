@@ -53,6 +53,15 @@
         prevEl: ".akheroslider-prev",
       },
     });
+
+  // testiomial slider
+
+   var swiper = new Swiper(".testiomialslider-active", {
+      navigation: {
+        nextEl: ".aktestimonial-next",
+        prevEl: ".aktestimonial-prev",
+      },
+    });
   //causes slider
   var swiper = new Swiper(".akcauses-slider", {
     slidesPerView: 3,
