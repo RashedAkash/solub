@@ -184,6 +184,9 @@ img {
 .clgray-3 {
   color: #6E6B76;
 }
+.clgray-4 {
+  color: #5A5860;
+}
 .clyellow {
   color: #ffcf4e;
 }
@@ -247,6 +250,11 @@ img {
     margin: 0 auto;
     padding: 0 15px;
   }
+  &-1380 {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
 }
 
 // letter spacing
@@ -259,6 +267,9 @@ img {
 .lts-52 {
   letter-spacing: -0.52px;
 }
+.lts-48 {
+  letter-spacing: -0.48px;
+}
 
 //
 .h-6 {
@@ -269,6 +280,9 @@ img {
 .lh {
   &-24 {
     line-height: 24px;
+  }
+  &-27 {
+    line-height: 27px;
   }
   &-36 {
     line-height: 36px;

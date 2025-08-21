@@ -62,6 +62,16 @@
   color: var(--tp-font-color);
   font-weight: 600;
 }
+.ak-btn-red {
+  border-radius: 12px;
+  background: #fe4e15;
+  padding: 17px 50px;
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
 .ak-btn-50 {
   font-size: 14px;
   font-weight: 600;
@@ -1444,6 +1454,10 @@ img {
   color: #6E6B76;
 }
 
+.clgray-4 {
+  color: #5A5860;
+}
+
 .clyellow {
   color: #ffcf4e;
 }
@@ -1502,6 +1516,11 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+.container-1380 {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
 
 .lts-4 {
   letter-spacing: -0.04em;
@@ -1515,12 +1534,19 @@ img {
   letter-spacing: -0.52px;
 }
 
+.lts-48 {
+  letter-spacing: -0.48px;
+}
+
 .h-6 {
   height: 6px;
 }
 
 .lh-24 {
   line-height: 24px;
+}
+.lh-27 {
+  line-height: 27px;
 }
 .lh-36 {
   line-height: 36px;
@@ -2591,6 +2617,24 @@ img {
 .akhelp-shape {
   bottom: -4px;
   left: 0;
+}
+
+.akhelp2-content {
+  margin-top: 12px;
+}
+.akhelp2-shape1 {
+  top: 30%;
+  left: -35%;
+  border: 6px solid white;
+}
+.akhelp2-shape2 {
+  border-radius: 24px 24px 6px 24px;
+  left: -21%;
+  top: 10%;
+}
+.akhelp2-shape3 {
+  bottom: 6%;
+  left: -25%;
 }
 
 .akjoin-btn {
