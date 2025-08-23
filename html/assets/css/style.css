@@ -1668,6 +1668,25 @@ img {
   background-color: #055c4d;
   padding: 11px 0;
 }
+.akheader-full-triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 120px 0 0 90px;
+  border-color: transparent transparent transparent #055c4d;
+  transform: rotate(0deg);
+  right: -40%;
+  top: 0;
+}
+.akheader-full-shape {
+  width: 6px;
+  height: 123%;
+  background-color: #ffcf4e;
+  top: 0;
+  right: -5%;
+  transform: rotate(-34deg);
+  transform-origin: top right;
+}
 .akheader-full-dvir {
   margin: 0 22px;
   width: 1px;
@@ -1696,6 +1715,21 @@ img {
   width: 226px;
   flex: 0 0 auto;
   background-color: #055c4d;
+}
+
+.akheader-full-right {
+  position: relative;
+  width: 226px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.akheader-full-right .overlay-text {
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  text-align: center;
 }
 
 .akoffcanvas-overlay-active {
