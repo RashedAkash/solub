@@ -72,6 +72,18 @@
   font-weight: 600;
   color: white;
 }
+.ak-btn-red-2 {
+  border-radius: 30px;
+  background: #fe4e15;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.14px;
+  text-transform: uppercase;
+  width: 148px;
+  text-align: center;
+}
 .ak-btn-50 {
   font-size: 14px;
   font-weight: 600;
@@ -1408,6 +1420,9 @@ img {
 .fns-50 {
   font-size: 50px;
 }
+.fns-60 {
+  font-size: 60px;
+}
 .fns-80 {
   font-size: 80px;
 }
@@ -1456,6 +1471,10 @@ img {
 
 .clgray-4 {
   color: #5A5860;
+}
+
+.clgray-5 {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .clyellow {
@@ -1551,6 +1570,9 @@ img {
 .lh-36 {
   line-height: 36px;
 }
+.lh-90 {
+  line-height: 90px;
+}
 .lh-1-6 {
   line-height: 162%;
 }
@@ -1625,6 +1647,7 @@ img {
   opacity: 0;
   transition: all 0.3s;
   display: none;
+  z-index: 1111;
   background-color: var(--tp-primary-color);
   width: 220px;
   position: absolute;
@@ -1639,6 +1662,40 @@ img {
 }
 .sub-menu li a {
   color: white;
+}
+
+.akheader-full-contact {
+  background-color: #055c4d;
+  padding: 11px 0;
+}
+.akheader-full-dvir {
+  margin: 0 22px;
+  width: 1px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+}
+.akheader-full-area {
+  display: flex;
+}
+.akheader-full-left {
+  width: 226px;
+  flex: 0 0 auto;
+  background-color: #055c4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.akheader-full-left img {
+  padding: 40px 0;
+}
+.akheader-full-middle {
+  width: 100%;
+}
+.akheader-full-right {
+  width: 226px;
+  flex: 0 0 auto;
+  background-color: #055c4d;
 }
 
 .akoffcanvas-overlay-active {
@@ -2206,6 +2263,35 @@ img {
 .akvolunteers-author9 {
   bottom: 10%;
   right: 10%;
+}
+
+.akvolunteer-box {
+  padding-left: 40px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+}
+.akvolunteer-pra {
+  margin: 0;
+}
+.akvolunteer-dvir {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  height: 140px;
+  text-align: center;
+}
+.akvolunteer-counter {
+  padding-left: 50px;
+}
+.akvolunteer-counter-heading {
+  margin: 0;
+}
+
+.akvolunteer-open-heading {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 .aknav-tabs {

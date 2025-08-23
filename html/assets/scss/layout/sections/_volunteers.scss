@@ -14,7 +14,7 @@
   &-author1 {
     bottom: 25px;
     left: 343px;
-     @media #{$md} {
+    @media #{$md} {
       display: none;
     }
   }
@@ -25,7 +25,7 @@
   &-author3 {
     top: 25px;
     left: 343px;
-     @media #{$md,$xs} {
+    @media #{$md,$xs} {
       display: none;
     }
   }
@@ -35,14 +35,14 @@
     left: 0;
     right: 0;
     margin: auto;
-     @media #{$md} {
+    @media #{$md} {
       display: none;
     }
   }
   &-author5 {
     top: 50%;
     left: 200px;
-     @media #{$xs} {
+    @media #{$xs} {
       display: none;
     }
   }
@@ -51,26 +51,56 @@
     left: 0;
     right: 0;
     margin: auto;
-     @media #{$md,$xs} {
+    @media #{$md,$xs} {
       display: none;
     }
   }
   &-author7 {
     bottom: 50%;
     right: 20%;
-    
   }
   &-author8 {
     top: 10%;
     right: 10%;
-     @media #{$xs} {
+    @media #{$xs} {
       display: none;
     }
-    
   }
   &-author9 {
     bottom: 10%;
     right: 10%;
-    
   }
 }
+.akvolunteer {
+  &-box {
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-top: 25px;
+  }
+  &-pra {
+    margin: 0;
+  }
+  &-dvir {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    height: 140px;
+    text-align: center;
+  }
+  &-counter {
+    padding-left: 50px;
+
+    &-pra {
+    }
+    &-heading{
+      margin: 0;
+    }
+  }
+}
+.akvolunteer-open-heading{
+text-decoration-line: underline;
+text-decoration-style: wavy;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+

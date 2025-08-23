@@ -139,6 +139,9 @@ img {
   &-50 {
     font-size: 50px;
   }
+  &-60 {
+    font-size: 60px;
+  }
   &-80 {
     font-size: 80px;
   }
@@ -186,6 +189,10 @@ img {
 }
 .clgray-4 {
   color: #5A5860;
+}
+.clgray-5 {
+  color: #ffffffcc
+;
 }
 .clyellow {
   color: #ffcf4e;
@@ -286,6 +293,9 @@ img {
   }
   &-36 {
     line-height: 36px;
+  }
+  &-90 {
+    line-height: 90px;
   }
   &-1-6 {
     line-height: 162%;
